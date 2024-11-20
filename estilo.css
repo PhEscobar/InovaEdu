@@ -1,0 +1,110 @@
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FFFFFF;
+    color: #5c4b51;
+}
+/* Cabeçalho fixo*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-bottom: 2px solid #B51200;
+}
+
+/* Ícone do menu */
+.menu-icon img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Logo */
+.logo-header img {
+    max-height: 60px;
+}
+
+/* Controle de acessibilidade */
+.accessibility-options {
+    display: flex;
+    gap: 10px;
+}
+
+.accessibility-options a {
+    color: #4B4B4B;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.accessibility-options a:hover {
+    color: #B51200;
+}
+
+/* Menu de navegação */
+nav {
+    margin-top: 60px;
+    background-color: #632423;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: #4B4B4B;
+}
+
+/* Seções */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.curso-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 40px; 
+}
+
+.curso {
+    text-align: center; 
+}
+
+.curso img {
+    width: 200px; 
+    height: auto; 
+}
